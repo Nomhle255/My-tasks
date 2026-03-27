@@ -11,33 +11,19 @@
         android:padding="24dp"
         android:gravity="center_horizontal">
 
-        <ImageView
-            android:layout_width="100dp"
-            android:layout_height="100dp"
-            android:src="@android:drawable/ic_menu_edit"
-            android:layout_marginBottom="24dp" />
-
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="My Tasks"
+            android:text="@string/my_tasksTittle"
             android:textSize="28sp"
             android:textStyle="bold"
             android:textColor="#6200EE"
             android:layout_marginBottom="8dp" />
 
         <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Version 1.0"
-            android:textSize="14sp"
-            android:textColor="#757575"
-            android:layout_marginBottom="24dp" />
-
-        <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="About This App"
+            android:text="@string/about_this_app"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#212121"
@@ -46,7 +32,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="My Tasks is a simple and efficient task management application. It helps you keep track of your daily tasks with ease.\n\nFeatures:\n• Add tasks quickly\n• Remove tasks with a single tap\n• Clear all tasks at once\n• View your device gallery"
+            android:text="@string/tasks_information"
             android:textSize="15sp"
             android:textColor="#424242"
             android:lineSpacingExtra="4dp"
@@ -55,7 +41,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Developer"
+            android:text="@string/developer_tittle"
             android:textSize="18sp"
             android:textStyle="bold"
             android:textColor="#212121"
@@ -64,7 +50,7 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Developed for Internal Assessment 2\nAndroid Development Course\n© 2026"
+            android:text="@string/tasks_information2"
             android:textSize="15sp"
             android:textColor="#424242"
             android:lineSpacingExtra="4dp" />
